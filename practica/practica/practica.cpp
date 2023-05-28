@@ -34,6 +34,8 @@ int main() {
 				cout << "ingrese valor 2: ";
 				cin >> val2;
 				calculadora(val1, val2);
+				cout << "Desea hacer otra operacion: ";
+				cin >> resp;
 			} while (resp == "si" || resp == "Si");
 		}
 		else {
