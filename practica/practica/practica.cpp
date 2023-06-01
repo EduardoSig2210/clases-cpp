@@ -17,15 +17,18 @@ float raiz(float x, float y);
 
 float calculadora(float a, float b);
 
+void error();
+
 int main() {
 	string resp, user, password;
 	float val1, val2;
 	int i = 0;
+	while (i < 3) {
 	cout << "Ingrese el usuario: ";
 	cin >> user;
 	cout << "Ingrese la contrasena: ";
 	cin >> password;
-	while(i < 3) {
+	
 		if (user == "EAS2210" && password == "22102003") {
 			i=3;
 			do {
@@ -36,10 +39,10 @@ int main() {
 				calculadora(val1, val2);
 				cout << "Desea hacer otra operacion: ";
 				cin >> resp;
-			} while (resp == "si" || resp == "Si");
+			} while (resp == "si" || resp == "Si" || resp == "SI");
 		}
 		else {
-			cout << "Usuario o contrasena incorrecta";
+			error();
 			i++;
 		}
 	}
@@ -87,7 +90,7 @@ float raiz(float x, float y) {
 
 float calculadora(float a, float b) {
 	int opcion = 0;
-	
+
 	cout << "1. Suma" << endl;
 	cout << "2. Resta" << endl;
 	cout << "3. Multiplicacion" << endl;
@@ -106,7 +109,7 @@ float calculadora(float a, float b) {
 	case 3:
 		cout << "La multiplicacion es: " << multiplicacion(a, b) << endl;
 		break;
-		case 4:
+	case 4:
 		cout << "La division es: " << division(a, b) << endl;
 		break;
 	case 5:
@@ -120,4 +123,8 @@ float calculadora(float a, float b) {
 		break;
 	}
 	return opcion;
+}
+
+void error() {
+	cout << "Credenciales invalidas"<<endl;
 }
