@@ -1,5 +1,5 @@
 ﻿  practica.cpp
-C:\Users\Eduar\Desktop\clases-cpp\practica\practica\practica.cpp(67,9): warning C4244: 'return': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\Eduar\Desktop\clases-cpp\practica\practica\practica.cpp(73,9): warning C4244: 'return': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\Eduar\Desktop\clases-cpp\practica\practica\practica.cpp(125,9): warning C4244: 'return': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Eduar\Desktop\clases-cpp\practica\practica\practica.cpp(68,9): warning C4244: 'return': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Eduar\Desktop\clases-cpp\practica\practica\practica.cpp(74,9): warning C4244: 'return': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Eduar\Desktop\clases-cpp\practica\practica\practica.cpp(126,9): warning C4244: 'return': conversión de 'int' a 'float'; posible pérdida de datos
   practica.vcxproj -> C:\Users\Eduar\Desktop\clases-cpp\practica\x64\Debug\practica.exe

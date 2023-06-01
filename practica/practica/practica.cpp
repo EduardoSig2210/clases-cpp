@@ -28,7 +28,7 @@ int main() {
 	cin >> user;
 	cout << "Ingrese la contrasena: ";
 	cin >> password;
-	
+	cout << "***********************************************************************"<<endl;
 		if (user == "EAS2210" && password == "22102003") {
 			i=3;
 			do {
@@ -39,18 +39,19 @@ int main() {
 				calculadora(val1, val2);
 				cout << "Desea hacer otra operacion: ";
 				cin >> resp;
+				cout << "***********************************************************************"<<endl;
 			} while (resp == "si" || resp == "Si" || resp == "SI");
 		}
 		else {
 			error();
+			cout << "***********************************************************************"<<endl;
 			i++;
 		}
 	}
 }
 
 float division(float x, float y) {
-	float total
-		= 0;
+	float total= 0;
 	total = x / y;
 	return total;
 }
